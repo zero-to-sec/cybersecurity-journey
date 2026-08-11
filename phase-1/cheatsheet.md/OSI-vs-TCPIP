@@ -1,4 +1,5 @@
-OSI is a theoretical model that helps you analyze and explain. However, TCP/IP is the practical model that the internet and networks operate with and are built upon.Layer 1: Physical - Its function is to control signals, i.e., Ethernet cable, Fibre cable, etc.
+#OSI MODEL
+1. Layer 1: Physical - Its function is to control signals, i.e., Ethernet cable, Fibre cable, etc.
 
 Layer 2: Data Link - Its function is to create a frame, i.e., to classify the MAC sender and receiver for the packet.
 
