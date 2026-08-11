@@ -1,5 +1,5 @@
 #OSI MODEL
-1. Layer 1: Physical - Its function is to control signals, i.e., Ethernet cable, Fibre cable, etc.
+Layer 1: Physical - Its function is to control signals, i.e., Ethernet cable, Fibre cable, etc.
 
 Layer 2: Data Link - Its function is to create a frame, i.e., to classify the MAC sender and receiver for the packet.
 
