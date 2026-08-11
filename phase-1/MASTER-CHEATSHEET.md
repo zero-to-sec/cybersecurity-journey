@@ -6,7 +6,7 @@
 
 .Layer 3: Network - Its function is to add the IP sender and receiver to the data segment and create the packet.
 
-.Layer 4: Transport - Its function is to divide data into data segments to facilitate its rapid transfer without any data loss. It also determines the port for the device that will receive the data and chooses whether to use the UDP protocol (speed without guarantee) or TCP (guaranteed speed without speed).
+.Layer 4: Transport - Its function is to divide data into data segments to facilitate its rapid transfer without any data loss. It also determines the port for the device that will receive the data and chooses whether to use the UDP protocol (speed without guarantee) or TCP (guaranteed delivery without speed).
 
 .Layer 5: Session - Its function is to create, maintain, and terminate sessions and perform synchronization between the two parties.
 
