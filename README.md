@@ -1,4 +1,4 @@
-# Cybersecurity Journey 🛡️
+# phase-1 🛡️
 
 Documenting my path from zero to **Senior Penetration Tester**, one week at a time.
 
