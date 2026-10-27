@@ -49,7 +49,7 @@ This confirms hypothesis 1.
 **Test 2:** I ran `ss -tlnp | grep 8000` to check if anyone is listening.
 
 ```
-(no output)
+State              Recv-Q              Send-Q                           Local Address:Port                           Peer Address:Port             Process 
 ```
 
 There is no output, so nothing is listening on port 8000. This also confirms hypothesis 2.
