@@ -7,7 +7,7 @@
 ## Commands Used
 ```
 nmap -sS 192.168.56.101
-nmap -sV 192.168.56.101
+nmap -sT 192.168.56.101
 nmap -p- 192.168.56.101
 ```
 
@@ -37,8 +37,8 @@ MAC Address: 08:00:27:8A:35:D2 (Oracle VirtualBox virtual NIC)
 - **Host is up (0.0025s latency):** it simply means that the device respond
 - **1000 closed tcp ports (reset):** this means the RST system is correct
 - **MAC Address 08:00:27:8A:35:D2:** this means that the advice I am testing is on the same local network
-- **Difference between -sS and -sV:** -sS sends a half scan (only SYN), but -sV makes a full connection with the server to find the state, service and version.
-- **What -p- did differently:** TODO (how many ports did it scan, and what was the result?)
+- **Difference between -sS and -sV:** -sS sends a half scan (only SYN), but -sT makes a full connection with the server to find the state, service and version.
+- **What -p- did differently:** To select a port for scanning
 
 ## Scan 2: After starting a service (port 8000)
 
@@ -67,7 +67,7 @@ MAC Address: 08:00:27:8A:35:D2 (Oracle VirtualBox virtual NIC)
 ### My interpretation
 - **PORT:** 8000/tcp
 - **STATE:** open
-- **SERVICE:** http-alt in the -sS scan, but http in the -sV scan. TODO (why do you think they are different?)
+- **SERVICE:** http-alt in the -sS scan, but http in the -sT scan. Because -sV is an addition, meaning it adds a version to the results, -sS is a type os scan called half-scan, there is a full scan that is secure and not hidden, which is -sT
 - **VERSION:** SimpleHTTPServer 0.6 (Python 3.13.12), the program name and its version.
 
 ## Before vs After
