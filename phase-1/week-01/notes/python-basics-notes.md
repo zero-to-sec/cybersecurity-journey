@@ -100,7 +100,7 @@ second port in my list: 80
 <class 'dict'>
 ```
 
-Screenshot from Kali: `![Run output in Kali](../assets/basics-run.png)`
+Screenshot from Kali: ![Run output in Kali](../assets/basics-run.png)
 
 ## Errors I hit and how I fixed them
 
@@ -134,7 +134,7 @@ The most useful error for me was `KeyError`, because it taught me to search a di
 
 - [x] Code written by me in Kali (not copied)
 - [x] Ran with `python3 basics.py`
-- [ ] Screenshot added
+- [x] Screenshot added
 - [ ] Teach-back done (explained without notes)
 
 ## Next step
