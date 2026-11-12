@@ -79,14 +79,14 @@ First I wrote a version that followed my notebook step by step. It worked for my
 
 ## What I understood (in my own words)
 
-I learned how to turn a manual method into code. My notebook method is: find the block size, divide the last octet by it, then multiply back. In Python I use `//` for the division, not `%`, because `%` gives the remainder. `split()` cuts text into a list, and `parts[0]` is the first item because counting starts from 0. I use `int()` only on the values I calculate with (`cidr` and `last`), and I keep the other octets as text because I only print them.
+I learned how to turn a manual method into code. My notebook method is: find the block size, divide the last octet by it, then multiply back. In Python, I use `//` for the division, not `%`, because `%` gives the remainder. `split()` cuts text into a list, and `parts[0]` is the first item because counting starts from 0. I use `int()` only on the values I calculate with (`cidr` and `last`), and I keep the other octets as text because I only print them.
 
 ## Evidence
 
 - [x] Script runs in Kali on 4 different examples
 - [x] Screenshot added
 - [x] Results match my manual calculation
-- [ ] Teach-Back done (explained without notes)
+- [x] Teach-Back done (explained without notes)
 
 ## Next step (Week 2)
 
